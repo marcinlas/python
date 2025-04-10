@@ -19,4 +19,4 @@ print(can_visit(15, 16, 17))
 print(can_visit(30, 40, 50))
 print(can_visit(35, 49, 70))
 
-# źródło --> https://www.umiemyinformatyke.pl/interaktywny-python-operatory-logiczne/63
+# źródło --> https://www.umiemyinformatyke.pl/interaktywny-python-operatory-logiczne/85
