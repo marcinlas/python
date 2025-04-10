@@ -12,7 +12,6 @@ def friends(x, y):
     else:
         return False
 
-
 # testowane przypadki:
 print(friends(3, 4))
 print(friends(5, 8))
