@@ -10,10 +10,16 @@ def magic_test(tears, horns, tails):
 '''
 
 def magic_test(tears, horns, tails):
+    # Przepis 1: róg + 5 łez
+    if tears >= 5 and horns >= 1:
+        return True
+    # Przepis 2: 3 łzy + 3 ogonki (niezależnie, czy róg jest czy nie)
+    if tears >= 3 and tails >= 3:
+        return True
+    # W przeciwnym razie – nie można przygotować eliksiru
     return False
 
-
 # testowane przypadki:
-print(magic_test(4, 3, 3))
+print(magic_test(4, 1, 3))
 
 # źródło --> https://www.umiemyinformatyke.pl/interaktywny-python-operatory-logiczne/64
