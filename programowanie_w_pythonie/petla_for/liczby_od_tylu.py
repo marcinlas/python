@@ -7,9 +7,8 @@ def reverse_numbers(n):
 '''
 
 def reverse_numbers(n):
-    for i in range(n):
+    for i in range(n, 0, -1):
         print(i)
-
 
 # testowane przypadki:
 reverse_numbers(8)
