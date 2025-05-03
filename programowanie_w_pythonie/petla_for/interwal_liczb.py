@@ -6,7 +6,8 @@ def interval(a, b):
 '''
 
 def interval(a, b):
-    print()
+    for i in range(a,b+1):
+        print(i)
 
 # testowane przypadki:
 interval(8, 13)
