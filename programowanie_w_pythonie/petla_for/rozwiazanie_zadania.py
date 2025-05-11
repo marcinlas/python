@@ -7,7 +7,7 @@ def even_numbers(n):
 '''
 
 def even_numbers(n):
-    for i in range(2, n)
+    for i in range(2, n%2):
         print(2)
 
 # testowane przypadki:
