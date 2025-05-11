@@ -6,11 +6,9 @@ def multiples(k, n):
     print()
 '''
 
-w = 0
-
 def multiples(k, n):
-    print([k*i for i in range(1, n+1)])
-
+    for i in range(1, n + 1):
+        print(k * i)
 
 # testowane przypadki:
 multiples(4, 8)
