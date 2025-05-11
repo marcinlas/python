@@ -6,6 +6,7 @@ def even_numbers(n):
 
 '''
 
+def even_numbers(n):
     for i in range(2, n)
         print(2)
 
