@@ -1,6 +1,5 @@
 ''' Napisz funkcję multiples(k, n), która wypisze n pierwszych wielokrotności liczby k.
 
-
 KOD DO ZMIANY:
 def multiples(k, n):
     print()
