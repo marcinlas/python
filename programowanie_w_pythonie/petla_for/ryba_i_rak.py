@@ -7,7 +7,7 @@ def animals(n):
 
 def animals(n):
     for i in range(n):
-        print("ryba \n", end="")
+        print("ryba\n", end="")
         if i < n - 1:
             print("rak\n", end="")
     print()  # na koniec przechodzi do nowej linii
