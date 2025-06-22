@@ -5,7 +5,6 @@ KOD DO ZMIANY:
 def print_sums(n):
     for i in range(n):
         print(n, "=", i, "+", i)
-
 '''
 
 def print_sums(n):
