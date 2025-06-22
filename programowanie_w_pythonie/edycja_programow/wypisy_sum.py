@@ -13,12 +13,6 @@ def print_sums(n):
             if n - i - 1 > 0:
                 print(n, "=", i+1, "+", n-i-1)
 
-
-
-
-
-
-
 # testowane przypadki:
 print_sums(9)
 
