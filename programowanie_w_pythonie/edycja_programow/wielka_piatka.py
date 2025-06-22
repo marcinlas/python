@@ -15,10 +15,10 @@ def big_five(n):
 
 def big_five(n):
     print("#"*n)
-    for i in range(n):
+    for i in range(n-2):
         print("#")
     print("#"*n)
-    for i in range(n):
+    for i in range(n-2):
         print(" "*n + "#")
     print("#"*n)
 
