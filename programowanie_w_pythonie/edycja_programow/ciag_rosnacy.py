@@ -8,8 +8,6 @@ def sequences(n):
         for j in range(i+1):
             print(i, end=" ")
         print()
-
-
 '''
 
 def sequences(n):
