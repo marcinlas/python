@@ -5,10 +5,10 @@ oddzielona pionową kreską.
 KOD DO ZMIANY:
 def stars(n):
     for i in range(n):
-        print("*", end="")
+        print ("*", end = "")
         if i == 5:
-            print("|", end="")
-    print()
+            print("|", end = "")
+    print ()
 '''
 
 def stars(n):
