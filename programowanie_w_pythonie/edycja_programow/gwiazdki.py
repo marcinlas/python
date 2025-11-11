@@ -13,7 +13,8 @@ def stars(n):
 
 def stars(n):
     for i in range(n):
-        print("*", end="")
+        for i in range(i<=5):
+            print("*", end="")
         if i == 5:
             print("|", end="")
     print()
