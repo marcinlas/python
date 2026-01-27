@@ -7,13 +7,9 @@ def foobar3(n):
 
 '''
 
-def stars(n):
-    for i in range(n):
-        for i in range(i<=5):
-            print("*", end="")
-        if i == 5:
-            print("|", end="")
-    print()
+def foobar3(n):
+    print("foobar")
+
 
 # testowane przypadki:
 foobar3(10)
