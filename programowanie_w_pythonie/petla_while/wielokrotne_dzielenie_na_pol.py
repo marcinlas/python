@@ -8,7 +8,9 @@ def repeated_division(n):
 '''
 
 def repeated_division(n):
-    print(n)
+    while n > 0:
+        print(n)
+        n = n // 2
 
 # testowane przypadki:
 repeated_division(89)
