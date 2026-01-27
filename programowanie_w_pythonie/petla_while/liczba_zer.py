@@ -10,9 +10,10 @@ def count_zeros(n):
 '''
 
 def count_zeros(n):
-    while n > 0:
-        print(n % 10)
-        n = n // 10
+    # Zamiana na tekst i policzenie ile razy występuje znak "0"
+    ileJestZer = str(n).count("0")
+    print(ileJestZer)
+
 
 # testowane przypadki:
 count_zeros(105401230)
