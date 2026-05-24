@@ -8,10 +8,9 @@ def multiples(n, limit):
 
 '''
 
-def count_zeros(n):
-    # Zamiana na tekst i policzenie ile razy występuje znak "0"
-    ileJestZer = str(n).count("0")
-    print(ileJestZer)
+def multiples(n, limit):
+    for i in range(n, limit, n):
+        print(i)
 
 
 # testowane przypadki:
