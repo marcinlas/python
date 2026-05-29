@@ -1,9 +1,6 @@
-''' Marcin ma mniej drewna niż kamieni.
-Za jednym razem wydobywa 2 drewna i 1 kamień. Będzie wydobywał,
-dopóki nie będzie miał tyle drewna, ile kamieni.
-Napisz funkcję materials(d, k),
-która dla podanej liczby drewna i kamieni wypisze przebieg
-wydobycia (patrz przykład).
+''' Napisz funkcję powers(n, a, b),
+która wypisze potęgi liczby n mieszczące się w przedziale od a do b.
+
 
 
 def powers(n, a, b):
